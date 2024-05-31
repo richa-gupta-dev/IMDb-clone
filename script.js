@@ -63,6 +63,10 @@ searchButton.addEventListener('click', function () {
     }
 });
 
+const homeButton = document.getElementById('homeButton');
+homeButton.addEventListener('click', function () {
+    localStorage.setItem('searchResults', null);
+});
 
 
 // Function to get movie details by IMDb ID
