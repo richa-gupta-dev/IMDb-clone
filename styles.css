@@ -12,10 +12,15 @@ body {
     padding: 0;
 }
 
-h2 {
-    color: rgb(100, 2, 104);
+h1 {
+    color: black;
     font-weight: bolder;
-    background-color: rgb(193, 247, 148);
+}
+
+h2 {
+    color: black;
+    font-weight: bolder;
+    background-color: #F5DE50;
     justify-items: center;
 }
 
@@ -30,7 +35,7 @@ header {
 a {
     text-decoration: none;
     font-weight: bolder;
-    color: burlywood;
+    color: black;
     box-shadow: inset;
     padding: 5px;
     margin: 5px;
@@ -41,15 +46,15 @@ a {
     text-align: center;
     margin: 0px;
     padding: 20px;
-    background-color: rgb(32, 133, 201);
-    border: 1px solid #090138;
+    background-color: black;
+    border: 5px solid #F5DE50;
     border-radius: 5px;
 }
 
 #quoteText {
     font-size: 20px;
     font-weight: bold;
-    color: #6d0d4d;
+    color: #F5DE50;
     margin: 10px;
 }
 
@@ -57,8 +62,8 @@ a {
     text-align: center;
     margin: 0px;
     padding: 20px;
-    background-color: rgb(201, 32, 74);
-    border: 1px solid #380134;
+    background-color: black;
+    border: 2px solid #F5DE50;
     border-radius: 5px;
 }
 
@@ -66,14 +71,14 @@ a {
     padding: 10px;
     margin-right: 10px;
     font-weight: bolder;
-    border: 4px violet solid;
-    color: green;
+    border: 4px black solid;
+    color: black;
 }
 
 #searchButton {
     padding: 10px 20px;
-    background-color: #6200ff;
-    color: #fff;
+    background-color: black;
+    color: #F5DE50;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -97,8 +102,8 @@ main {
     border: 1px solid #ccc;
     padding: 5px;
     text-align: center;
-    color: rgb(0, 17, 255);
-    background-color: rgb(77, 209, 110);
+    color: #F5DE50;
+    background-color: black;
 }
 
 .movie-card img {
@@ -110,40 +115,40 @@ main {
 button {
     margin-top: 8px;
     padding: 8px 16px;
-    background-color: #f73505;
-    color: #fff;
+    background-color: black;
+    color: #F5DE50;
     font-weight: bold;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #6200ff;
-    color: whitesmoke;
+    background-color: #F5DE50;
+    color: black;
 }
 
 nav {
-    background-color: #aaffb5;
+    background-color: black;
 }
 
 .container {
-    background-color: rgb(162, 251, 196);
-    color: rgb(42, 61, 165);
+    background-color: #F5DE50;
+    color: black;
     font-weight: bold;
 }
 
 .navbar {
-    background-color: #aad6ff;
+    background-color: black;
     font-size: larger;
 }
 
 .navbar-brand {
-    font-size: 24px;
-    color: #54184b;
+    font-size: 25px;
+    color: black;
 }
 
 .navbar-nav .nav-link {
-    color: rgb(38, 0, 255);
+    color: black;
     font-size: 20px;
 }
 
@@ -158,19 +163,23 @@ nav {
     max-width: 200px;
     min-height: 280px; /* Adjust height for better visibility */
     margin: 5px;
-    color: #034407;
+    color: #F5DE50;
     font-weight: bolder;
-    background-color: #f7c784;
+    background-color: black;
     object-fit: cover;
+    margin-left: 60px;
+    padding-top: 15px;
 }
 
 #favouritesList .card {
-    background-color: #fff3cd;
+    background-color: black;
     width: 100%;
     max-width: 200px;
     min-height: 280px; /* Adjust height for better visibility */
     margin: 10px;
-    border: 1px solid #f0ad4e;
+    padding-top: 15px;
+    border: 2px solid #F5DE50;
+    color: #F5DE50;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

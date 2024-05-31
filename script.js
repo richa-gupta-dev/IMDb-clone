@@ -81,13 +81,13 @@ if (previousSearchResults && previousSearchResults.length > 0) {
 const quoteText = document.getElementById('quoteText');
 const quoteSpeed = 200; // Time (in milliseconds) for each word to appear
 const movieQuotations = [
-    "The greatest trick the devil ever pulled was convincing the world he didn't exist. - The Usual Suspects",
-    "May the Force be with you. - Star Wars",
-    "Here's looking at you, kid. - Casablanca",
-    "I'll be back. - The Terminator",
-    "Why so serious? - The Dark Knight",
-    "You can't handle the truth! - A Few Good Men",
-    "There's no place like home. - The Wizard of Oz",
+    "Babumoshai, zindagi badi honi chahiye, lambi nahi. - Anand",
+    "Haso, jiyo, muskurao. Kya pata, kal ho na ho. - Kal ho na ho",
+    "Keep the child in you alive. - Dear Zindagi",
+    "All izz well. - 3 Idiots",
+    "How's the josh? - Uri",
+    "Sometimes, the wrong train takes you to the right destination. - Lunchbox",
+    "Picture abhi baaki hai mere dost! - Om Shanti Om"
 ];
 let currentQuoteIndex = 0;
 
